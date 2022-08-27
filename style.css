@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+nav{
+    position:sticky;
+    top:0;
+}
+.nav{
+    justify-content: space-between;
+    background-color: antiquewhite;
+    height: 40px;
+    width: 100%;
+    text-align:center ;
+}
+nav a{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    margin: 20%;
+}
+.courses{
+    width: 100%;
+}
+#photo{
+    border-radius: 50%;
+    width: 300px;;
+}
+
+.courses img{
+    width: 400px;
+}
+.marwa{
+    display: flex;
+    width: 900px;
+}
+.middle{
+    margin: 10%;
+    width:80%;
+}
+.courses button{
+    background-color: lightblue;
+    border:0;
+    font-size: 20px;
+}
+.courses button:hover{
+    background-color:blue
+}
+.body{
+    display: flex;
+}
